@@ -1,0 +1,145 @@
+Untuk Lara
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Laura 🤍</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.12);
+    padding: 30px 24px;
+    border-radius: 22px;
+    width: 90%;
+    max-width: 360px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+    animation: fadeUp 2s ease;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+p {
+    font-size: 15.5px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.question {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yes {
+    background: #ffffff;
+    color: #243b55;
+}
+
+.yes:hover {
+    background: #e6e6ff;
+}
+
+.talk {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.6);
+}
+
+.talk:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.music {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Musik romantis barat -->
+<audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/10/09/audio_7c8e4a9db1.mp3" type="audio/mpeg">
+</audio>
+
+<div class="card">
+    <h1>Hai, <span style="color:#ffd6ff;">Laura</span> 🤍</h1>
+
+    <p>
+        Aku bikin ini karena aku nggak mau jujur dengan cara yang biasa.<br><br>
+        Sejak kenal kamu, ada rasa nyaman yang pelan-pelan tumbuh.<br>
+        Kamu bikin aku tenang, dan tanpa sadar… kamu jadi penting.<br><br>
+        Jadi hari ini aku mau jujur, tanpa maksa.
+    </p>
+
+    <div class="question">
+        Laura, maukah kamu jadi pacarku? 🤍
+    </div>
+
+    <div class="buttons">
+        <button class="yes" onclick="iya()">Iya 🤍</button>
+        <button class="talk" onclick="ngobrol()">Kita ngobrol dulu</button>
+    </div>
+
+    <div class="music">
+        🎵 Musik diputar perlahan…
+    </div>
+</div>
+
+<script>
+function iya() {
+    alert("Makasih Laura 🤍\nAku seneng banget.\nNanti aku chat kamu ya.");
+}
+
+function ngobrol() {
+    alert("Makasih sudah jujur 🤍\nAku hargai, kita ngobrol pelan-pelan ya.");
+}
+</script>
+
+</body>
+</html>
